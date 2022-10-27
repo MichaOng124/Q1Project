@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Zilla+Slab&display=swap" rel="stylesheet">
+
+	<title>Q1 Project</title>
+	<style type="text/css">
+		h2, h1, h3, b{
+			font-family: 'Poppins', sans-serif;
+		}
+		table, th, td, tr{
+			border: 2px solid darkblue;
+			padding: 10px;
+		}
+		p, label, option{
+			font-family: 'Zilla Slab', serif;
+		}
+	</style>
+</head>
+<body bgcolor="#11B7DC">
+	<h2 style="background-color: #E8F0F2;">Micha's MovieHouse</h2>
+	<h1 align="center" style="background-color: #E8F0F2;">Movies This Month</h1>
+	<hr>
+	 <!-- The image has scrolling behavior to left -->
+    <marquee  behavior="scroll" direction="left">        
+          <img src="https://occ-0-64-987.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABTl9OrizQXdMhqe4LbN7FulV6YMJv-G45lJacN4Ix6yoaApGIFSGQL3w3AS9OmYGXJ8M6pmhz2O60Mv2uGqqhczTyIMFVZs10QeE.jpg?r=4fa" height="400"> 
+          <img src="https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/enola-holmes-movie-review-2020/enola-holmes-movie-review-2020.jpg" height="400">
+          <img src="https://www.thewrap.com/wp-content/uploads/2022/03/TheHungerGames.jpg" height="400">
+          <img src="https://media.newyorker.com/photos/5da4a5c756dcd400082a63ba/master/w_2560%2Cc_limit/Brody-Parasite.jpg" height="400">
+          <img src="https://i.ytimg.com/vi/jI6jGlQhTU4/maxresdefault.jpg" height="400">
+          <img src="https://assets.teenvogue.com/photos/5994baf49bca9f4c417198b7/master/pass/MCDTANG_EC051_H.JPG" height="400">
+          <img src="https://media.wired.com/photos/593267e652d99d6b984de280/master/pass/divergent-review-ft.jpg" height="400">
+    </marquee> 
+    <hr> 
+    <br>
+    <br>
+
+    <table align="center">
+	<tr><th colspan="4" style="background-color: #E8F0F2;"><h2>Now Showing</h2></th></tr>
+	<tr>
+		<td><a href="https://www.imdb.com/title/tt2911666/"><img src="John Wick.jpg" height="400"></td>
+		<td><a href="https://www.imdb.com/title/tt7846844/"><img src="Enola Holmes.jpeg" height="400"></td>
+		<td><a href="https://www.imdb.com/title/tt5311514/"><img src="Your Name.jpg" height="400"></td>
+		<td><a href="https://www.imdb.com/title/tt1392170/"><img src="The Hunger Games.jpg" height="400"></td>
+	</tr>
+	<tr>
+	<td>	
+		<h3>John Wick</h3>
+			<p><b>Genre: </b>Action/Crime/Thriller</p>
+			<p><b>Age Rating:</b> 18+</p>
+			<hr>
+			<h4>Buy Tickets Now</h4>
+			<label for="strand">Number of Seats:</label><br>
+	<select id="Number of Seats" name="Number of Seats">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+	</select>
+	<br>
+	<br>
+		<label for="birthday">Date:</label><br>
+		<input type="date" id="birthday" name="birthday"><br>
+	</td>
+	<td>
+			<h3>Enola Holmes</h3>
+			<p><b>Genre: </b>Action/Adventure/Crime/Romance</p>
+			<p><b>Age Rating:</b> G</p>
+			<hr>
+			<h4>Buy Tickets Now</h4>
+			<label for="strand">Number of Seats:</label><br>
+	<select id="Number of Seats" name="Number of Seats">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+	</select>
+	<br>
+	<br>
+		<label for="birthday">Date:</label><br>
+		<input type="date" id="birthday" name="birthday"><br>
+	</td>
+	<td>
+			<h3>Your Name</h3>
+			<p><b>Genre: </b>Animation/Drama/Romance</p>
+			<p><b>Age Rating:</b> G</p>
+			<hr>
+			<h4>Buy Tickets Now</h4>
+			<label for="strand">Number of Seats:</label><br>
+	<select id="Number of Seats" name="Number of Seats">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+	</select>
+	<br>
+	<br>
+		<label for="birthday">Date:</label><br>
+		<input type="date" id="birthday" name="birthday"><br>
+	</td>
+	<td>
+			<h3>The Hunger Games</h3>
+			<p><b>Genre: </b>Action/Adventure/Dystopia</p>
+			<p><b>Age Rating:</b> 13+</p>  
+			<hr>
+			<h4>Buy Tickets Now</h4>
+			<label for="strand">Number of Seats:</label><br>
+	<select id="Number of Seats" name="Number of Seats">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+	</select>
+	<br>
+	<br>
+		<label for="birthday">Date:</label><br>
+		<input type="date" id="birthday" name="birthday"><br>
+	</td>
+	</tr>
+	<tr><th colspan="4"></th></tr>
+	<tr>
+		<tr>
+		<td><a href="https://www.imdb.com/title/tt6751668/"><img src="Parasite.jpg" height="400"></td>
+		<td><a href="https://www.imdb.com/title/tt1981677/"><img src="Pitch Perfect.jpg" height="400"></td>
+		<td><a href="https://www.imdb.com/title/tt0398286/"><img src="Tangled.jpg" height="400"></td>
+		<td><a href="https://www.imdb.com/title/tt1840309/"><img src="Divergent.jpg" height="400"></td>
+	</tr>
+	<tr>
+	<td>	
+		<h3>Parasite</h3>
+			<p><b>Genre: </b>Drama/Thriller</p>
+			<p><b>Age Rating:</b> 16+</p>
+			<hr>
+			<h4>Buy Tickets Now</h4>
+			<label for="strand">Number of Seats:</label><br>
+	<select id="Number of Seats" name="Number of Seats">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+	</select>
+	<br>
+	<br>
+		<label for="birthday">Date:</label><br>
+		<input type="date" id="birthday" name="birthday"><br>
+	</td>
+	<td>
+			<h3>Pitch Perfect</h3>
+			<p><b>Genre: </b>Comedy/Musical/Romance</p>
+			<p><b>Age Rating:</b> 13+</p>
+			<hr>
+			<h4>Buy Tickets Now</h4>
+			<label for="strand">Number of Seats:</label><br>
+	<select id="Number of Seats" name="Number of Seats">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+	</select>
+	<br>
+	<br>
+		<label for="birthday">Date:</label><br>
+		<input type="date" id="birthday" name="birthday"><br>
+	</td>
+	<td>
+			<h3>Tangled</h3>
+			<p><b>Genre: </b>Animation/Adventure/Comedy</p>
+			<p><b>Age Rating:</b> G</p>
+			<hr>
+			<h4>Buy Tickets Now</h4>
+			<label for="strand">Number of Seats:</label><br>
+	<select id="Number of Seats" name="Number of Seats">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+	</select>
+	<br>
+	<br>
+		<label for="birthday">Date:</label><br>
+		<input type="date" id="birthday" name="birthday"><br>
+	</td>
+	<td>
+			<h3>Divergent</h3>
+			<p><b>Genre: </b>Action/Mystery/Dystopia</p>
+			<p><b>Age Rating:</b> 13+</p>  
+			<hr>
+			<h4>Buy Tickets Now</h4>
+			<label for="strand">Number of Seats:</label><br>
+	<select id="Number of Seats" name="Number of Seats">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+	</select>
+	<br>
+	<br>
+		<label for="birthday">Date:</label><br>
+		<input type="date" id="birthday" name="birthday"><br>
+	</td>
+	</tr>
+</table>
+</body>
+</html>
